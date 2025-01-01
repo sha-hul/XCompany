@@ -1,0 +1,57 @@
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+GET_EMPLOYEE :>
+Employee [name=Alice, gender=FEMALE]
+
+GET_EMPLOYEE :>
+Employee [name=Bob, gender=MALE]
+
+GET_EMPLOYEE :>
+Employee [name=Carol, gender=FEMALE]
+
+GET_DIRECT_REPORTS :>
+Employee [name=Bob, gender=MALE], Employee [name=Carol, gender=FEMALE]
+
+GET_TEAMMATES :>
+Employee [name=Alice, gender=FEMALE], Employee [name=Bob, gender=MALE], Employee [name=Carol, gender=FEMALE]
+
+GET_TEAMMATES :>
+Employee [name=Carol, gender=FEMALE], Employee [name=vandana, gender=FEMALE], Employee [name=haroon, gender=MALE], Employee [name=harsh, gender=MALE]
+
+DELETE_EMPLOYEE :>
+EMPLOYEE_DELETION_SUCCEEDED
+
+GET_TEAMMATES :>
+Employee [name=Alice, gender=FEMALE], Employee [name=Bob, gender=MALE], Employee [name=vandana, gender=FEMALE], Employee [name=haroon, gender=MALE], Employee [name=harsh, gender=MALE]
+
